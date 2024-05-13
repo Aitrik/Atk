@@ -191,7 +191,7 @@ export default function Home() {
                     <span className="bg-secondary pr-3">Featured Products</span>
                 </h2>
                 <div className="row px-xl-5">
-                    {prod.slice(0, 8).map((item) => (
+                    {prod.slice(1, 9).map((item) => (
                         <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
                            <Link to={`/shop/${item.id}`}>
                            <div className="product-item bg-light mb-4">
@@ -280,7 +280,7 @@ export default function Home() {
                     <span className="bg-secondary pr-3">Limited Time Offer</span>
                 </h2>
                 <div className="row px-xl-5">
-                    {prod.slice(17, 21).map((item) => (
+                    {prod.slice(8,12).map((item) => (
                         <div className="col-lg-3 col-md-4 col-sm-6 pb-1">
                             <Link to={`/shop/${item.id}`}>
                             <div className="product-item bg-light mb-4">
